@@ -1,0 +1,34 @@
+{
+  "name": "colorspal",
+  "version": "1.0.1",
+  "description": "Provides a wide variety of colors with 9 shades of each to help you writing frontend code easily.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devs-buddy/colorspal.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "keywords": [
+    "colors",
+    "bootstrap",
+    "colors",
+    "colors",
+    "pallate",
+    "color",
+    "pallate",
+    "bootstrap",
+    "color",
+    "pallate",
+    "bootstrap",
+    "colors",
+    "pallate"
+  ],
+  "author": "Shoaib Khan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devs-buddy/colorspal/issues"
+  },
+  "homepage": "https://github.com/devs-buddy/colorspal#readme"
+}
