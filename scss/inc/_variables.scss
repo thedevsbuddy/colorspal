@@ -1,0 +1,75 @@
+// Colors
+$color-offset:          8% !default;
+$color-offset-grey:     8% !default;
+$color-shades:          10 !default;
+$color-lightness-break: 60 !default;
+$css-var-prefix:        '--';
+//------------------------------------------//
+// Color Pallet
+$amber:                 #ffc107 !default;
+$amber-base:            lighten($amber, 5 * $color-offset) !default;
+$aqua:                  #0ff !default;
+$aqua-base:             lighten($aqua, 5 * $color-offset) !default;
+$blue:                  #2196F3 !default;
+$blue-base:             lighten($blue, 5 * $color-offset) !default;
+$brown:                 #795548 !default;
+$brown-base:            lighten($brown, 5 * $color-offset) !default;
+$cyan:                  #00bcd4 !default;
+$cyan-base:             lighten($cyan, 5 * $color-offset) !default;
+$blue-grey:             #607d8b !default;
+$blue-grey-base:        lighten($blue-grey, 5 * $color-offset) !default;
+$green:                 #4CAF50 !default;
+$green-base:            lighten($green, 5 * $color-offset) !default;
+$indigo:                #3f51b5 !default;
+$indigo-base:           lighten($indigo, 5 * $color-offset) !default;
+$khaki:                 #f0e68c !default;
+$khaki-base:            #fdf9d5 !default;
+$lime:                  #cddc39 !default;
+$lime-base:             lighten($lime, 5 * $color-offset) !default;
+$orange:                #ff5722 !default;
+$orange-base:           lighten($orange, 5 * $color-offset) !default;
+$pink:                  #e91e63 !default;
+$pink-base:             lighten($pink, 5 * $color-offset) !default;
+$purple:                #9c27b0 !default;
+$purple-base:           lighten($purple, 5 * $color-offset) !default;
+$red:                   #f44336 !default;
+$red-base:              lighten($red, 5 * $color-offset) !default;
+$teal:                  #009688 !default;
+$teal-base:             lighten($teal, 5 * $color-offset) !default;
+$yellow:                #ffeb3b !default;
+$yellow-base:           lighten($yellow, 5 * $color-offset * 0.9) !default;
+$dark:                  #000 !default;
+$grey:                  #818181 !default;
+$grey-base:             lighten($grey, 5 * $color-offset-grey) !default;
+$white:                 #fff !default;
+$off-white:             #f1f5f8 !default;
+$black:                 $dark !default;
+
+//------------------------------------------//
+// Theme Color
+$primary:               $blue !default;
+$secondary:             lighten($dark, 15%) !default;
+$success:               $green !default;
+$info:                  $cyan !default;
+$warning:               $yellow !default;
+$danger:                $red !default;
+$accent:                #69A1AC !default;
+$light:                 #FAFAFF !default;
+$dark:                  #4e4e4e !default;
+//------------------------------------------//
+$theme-colors: ();
+$theme-colors: map-merge(
+    (
+        "primary":      $primary,
+        "secondary":    $secondary,
+        "success":      $success,
+        "info":         $info,
+        "warning":      $warning,
+        "danger":       $danger,
+        "light":        $light,
+        "dark":         $dark,
+        "accent":       $accent
+    ),
+    $theme-colors
+);
+//------------------------------------------//
