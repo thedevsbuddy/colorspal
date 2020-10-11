@@ -8,7 +8,7 @@
 @each $key, $val in $theme-colors {
     .t-#{$key},
     .text-#{$key},
-    .hover\:t-#{$key}:hover
+    .hover\:t-#{$key}:hoverm
     .hover\:text-#{$key}:hover
     {
         color: #{$val} !important;
