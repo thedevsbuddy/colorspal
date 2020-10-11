@@ -57,19 +57,15 @@ $accent:                #69A1AC !default;
 $light:                 #FAFAFF !default;
 $dark:                  #4e4e4e !default;
 //------------------------------------------//
-$theme-colors: ();
-$theme-colors: map-merge(
-    (
-        "primary":      $primary,
-        "secondary":    $secondary,
-        "success":      $success,
-        "info":         $info,
-        "warning":      $warning,
-        "danger":       $danger,
-        "light":        $light,
-        "dark":         $dark,
-        "accent":       $accent
-    ),
-    $theme-colors
+$theme-colors: (
+    "primary":      $primary,
+    "secondary":    $secondary,
+    "success":      $success,
+    "info":         $info,
+    "warning":      $warning,
+    "danger":       $danger,
+    "light":        $light,
+    "dark":         $dark,
+    "accent":       $accent
 );
 //------------------------------------------//

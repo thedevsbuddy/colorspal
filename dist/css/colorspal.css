@@ -1466,63 +1466,63 @@
 
 .t-primary,
 .text-primary,
-.hover\:t-primary:hover
+.hover\:t-primary:hover,
 .hover\:text-primary:hover {
   color: #2196F3 !important;
 }
 
 .t-secondary,
 .text-secondary,
-.hover\:t-secondary:hover
+.hover\:t-secondary:hover,
 .hover\:text-secondary:hover {
   color: #262626 !important;
 }
 
 .t-success,
 .text-success,
-.hover\:t-success:hover
+.hover\:t-success:hover,
 .hover\:text-success:hover {
   color: #4CAF50 !important;
 }
 
 .t-info,
 .text-info,
-.hover\:t-info:hover
+.hover\:t-info:hover,
 .hover\:text-info:hover {
   color: #00bcd4 !important;
 }
 
 .t-warning,
 .text-warning,
-.hover\:t-warning:hover
+.hover\:t-warning:hover,
 .hover\:text-warning:hover {
   color: #ffeb3b !important;
 }
 
 .t-danger,
 .text-danger,
-.hover\:t-danger:hover
+.hover\:t-danger:hover,
 .hover\:text-danger:hover {
   color: #f44336 !important;
 }
 
 .t-light,
 .text-light,
-.hover\:t-light:hover
+.hover\:t-light:hover,
 .hover\:text-light:hover {
   color: #FAFAFF !important;
 }
 
 .t-dark,
 .text-dark,
-.hover\:t-dark:hover
+.hover\:t-dark:hover,
 .hover\:text-dark:hover {
   color: #000 !important;
 }
 
 .t-accent,
 .text-accent,
-.hover\:t-accent:hover
+.hover\:t-accent:hover,
 .hover\:text-accent:hover {
   color: #69A1AC !important;
 }

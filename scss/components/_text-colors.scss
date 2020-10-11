@@ -8,12 +8,11 @@
 @each $key, $val in $theme-colors {
     .t-#{$key},
     .text-#{$key},
-    .hover\:t-#{$key}:hoverm
+    .hover\:t-#{$key}:hover,
     .hover\:text-#{$key}:hover
     {
         color: #{$val} !important;
     }
-    
 }
 
 // Amber
