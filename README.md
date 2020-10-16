@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://devsbuddy.com/libs/colorspal">
-    <img src="https://www.devsbuddy.com/assets/img/logo.png" alt="Devsbuddy logo" width="165" height="165">
+    <img src="https://www.devsbuddy.com/assets/img/logo.png" alt="Devsbuddy logo" width="150" height="150">
   </a>
 </p>
 
@@ -21,7 +21,7 @@
 </p>
 
 
-# ColorsPal 1.0
+# ColorsPal 1.1
 
 
 ## Quick start
@@ -29,7 +29,7 @@
 
 Several quick start options are available:
 
-- [Download the latest release](https://devsbuddy.com/libs/colorspal/archive/colorspal_1.0.3.zip)
+- [Download the latest release](https://github.com/devs-buddy/colorspal/archive/v1.1.zip)
 - Install with [npm](https://www.npmjs.com/): `npm i colorspal`
 
 ## What's included
