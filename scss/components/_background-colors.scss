@@ -6,8 +6,8 @@
 //  THEME   ||
 //------------
 @each $key, $val in $theme-colors {
-    .#{$key},
-    .hover\:#{$key}:hover
+    .bg-#{$key},
+    .hover\:bg-#{$key}:hover
     {
         background-color: #{$val} !important;
         color: fgColor($val);
@@ -19,13 +19,13 @@
 //------------
 @for $i from 1 to $color-shades {
     @if ($i==5) {
-        .amber,
-        .hover\:amber:hover {
+        .bg-amber,
+        .hover\:bg-amber:hover {
             background-color: darken($amber-base, $i * $color-offset) !important;
             color: fgColor(darken($amber-base, $i * $color-offset));
         }
-        .amber-#{$i*100},
-        .hover\:amber-#{$i*100}:hover {
+        .bg-amber-#{$i*100},
+        .hover\:bg-amber-#{$i*100}:hover {
             background-color: darken($amber-base, $i * $color-offset) !important;
             color: fgColor(darken($amber-base, $i * $color-offset));
         }
@@ -33,8 +33,8 @@
 
     @else {
 
-        .amber-#{$i*100},
-        .hover\:amber-#{$i*100}:hover {
+        .bg-amber-#{$i*100},
+        .hover\:bg-amber-#{$i*100}:hover {
             background-color: darken($amber-base, $i * $color-offset) !important;
             color: fgColor(darken($amber-base, $i * $color-offset));
         }
@@ -48,13 +48,13 @@
 //-----------
 @for $i from 1 to $color-shades {
     @if ($i==5) {
-        .aqua,
-        .hover\:aqua:hover {
+        .bg-aqua,
+        .hover\:bg-aqua:hover {
             background-color: darken($aqua-base, $i * $color-offset) !important;
             color: fgColor(darken($aqua-base, $i * $color-offset));
         }
-        .aqua-#{$i*100},
-        .hover\:aqua-#{$i*100}:hover {
+        .bg-aqua-#{$i*100},
+        .hover\:bg-aqua-#{$i*100}:hover {
             background-color: darken($aqua-base, $i * $color-offset) !important;
             color: fgColor(darken($aqua-base, $i * $color-offset));
         }
@@ -62,8 +62,8 @@
 
     @else {
 
-        .aqua-#{$i*100},
-        .hover\:aqua-#{$i*100}:hover {
+        .bg-aqua-#{$i*100},
+        .hover\:bg-aqua-#{$i*100}:hover {
             background-color: darken($aqua-base, $i * $color-offset) !important;
             color: fgColor(darken($aqua-base, $i * $color-offset));
         }
@@ -76,13 +76,13 @@
 //-----------
 @for $i from 1 to $color-shades {
     @if ($i==5) {
-        .blue,
-        .hover\:blue:hover {
+        .bg-blue,
+        .hover\:bg-blue:hover {
             background-color: darken($blue-base, $i * $color-offset) !important;
             color: fgColor(darken($blue-base, $i * $color-offset));
         }
-        .blue-#{$i*100},
-        .hover\:blue-#{$i*100}:hover {
+        .bg-blue-#{$i*100},
+        .hover\:bg-blue-#{$i*100}:hover {
             background-color: darken($blue-base, $i * $color-offset) !important;
             color: fgColor(darken($blue-base, $i * $color-offset));
         }
@@ -90,8 +90,8 @@
 
     @else {
 
-        .blue-#{$i*100},
-        .hover\:blue-#{$i*100}:hover {
+        .bg-blue-#{$i*100},
+        .hover\:bg-blue-#{$i*100}:hover {
             background-color: darken($blue-base, $i * $color-offset) !important;
             color: fgColor(darken($blue-base, $i * $color-offset));
         }
@@ -105,13 +105,13 @@
 //------------
 @for $i from 1 to $color-shades {
     @if ($i==5) {
-        .brown,
-        .hover\:brown:hover {
+        .bg-brown,
+        .hover\:bg-brown:hover {
             background-color: darken($brown-base, $i * $color-offset * .9) !important;
             color: fgColor(darken($brown-base, $i * $color-offset * .9));
         }
-        .brown-#{$i*100},
-        .hover\:brown-#{$i*100}:hover {
+        .bg-brown-#{$i*100},
+        .hover\:bg-brown-#{$i*100}:hover {
             background-color: darken($brown-base, $i * $color-offset * .9) !important;
             color: fgColor(darken($brown-base, $i * $color-offset * .9));
         }
@@ -119,8 +119,8 @@
 
     @else {
 
-        .brown-#{$i*100},
-        .hover\:brown-#{$i*100}:hover {
+        .bg-brown-#{$i*100},
+        .hover\:bg-brown-#{$i*100}:hover {
             background-color: darken($brown-base, $i * $color-offset * .9) !important;
             color: fgColor(darken($brown-base, $i * $color-offset * .9));
         }
@@ -134,13 +134,13 @@
 //-----------
 @for $i from 1 to $color-shades {
     @if ($i==5) {
-        .cyan,
-        .hover\:cyan:hover {
+        .bg-cyan,
+        .hover\:bg-cyan:hover {
             background-color: darken($cyan-base, $i * $color-offset) !important;
             color: fgColor(darken($cyan-base, $i * $color-offset));
         }
-        .cyan-#{$i*100},
-        .hover\:cyan-#{$i*100}:hover {
+        .bg-cyan-#{$i*100},
+        .hover\:bg-cyan-#{$i*100}:hover {
             background-color: darken($cyan-base, $i * $color-offset) !important;
             color: fgColor(darken($cyan-base, $i * $color-offset));
         }
@@ -148,8 +148,8 @@
 
     @else {
 
-        .cyan-#{$i*100},
-        .hover\:cyan-#{$i*100}:hover {
+        .bg-cyan-#{$i*100},
+        .hover\:bg-cyan-#{$i*100}:hover {
             background-color: darken($cyan-base, $i * $color-offset) !important;
             color: fgColor(darken($cyan-base, $i * $color-offset));
         }
@@ -163,13 +163,13 @@
 //----------------
 @for $i from 1 to $color-shades {
     @if ($i==5) {
-        .blue-grey,
-        .hover\:blue-grey:hover {
+        .bg-blue-grey,
+        .hover\:bg-blue-grey:hover {
             background-color: darken($blue-grey-base, $i * $color-offset) !important;
             color: fgColor(darken($blue-grey-base, $i * $color-offset));
         }
-        .blue-grey-#{$i*100},
-        .hover\:blue-grey-#{$i*100}:hover {
+        .bg-blue-grey-#{$i*100},
+        .hover\:bg-blue-grey-#{$i*100}:hover {
             background-color: darken($blue-grey-base, $i * $color-offset) !important;
             color: fgColor(darken($blue-grey-base, $i * $color-offset));
         }
@@ -177,8 +177,8 @@
 
     @else {
 
-        .blue-grey-#{$i*100},
-        .hover\:blue-grey-#{$i*100}:hover {
+        .bg-blue-grey-#{$i*100},
+        .hover\:bg-blue-grey-#{$i*100}:hover {
             background-color: darken($blue-grey-base, $i * $color-offset) !important;
             color: fgColor(darken($blue-grey-base, $i * $color-offset));
         }
@@ -192,13 +192,13 @@
 //------------
 @for $i from 1 to $color-shades {
     @if ($i==5) {
-        .green,
-        .hover\:green:hover {
+        .bg-green,
+        .hover\:bg-green:hover {
             background-color: darken($green-base, $i * $color-offset) !important;
             color: fgColor(darken($green-base, $i * $color-offset));
         }
-        .green-#{$i*100},
-        .hover\:green-#{$i*100}:hover {
+        .bg-green-#{$i*100},
+        .hover\:bg-green-#{$i*100}:hover {
             background-color: darken($green-base, $i * $color-offset) !important;
             color: fgColor(darken($green-base, $i * $color-offset));
         }
@@ -206,8 +206,8 @@
 
     @else {
 
-        .green-#{$i*100},
-        .hover\:green-#{$i*100}:hover {
+        .bg-green-#{$i*100},
+        .hover\:bg-green-#{$i*100}:hover {
             background-color: darken($green-base, $i * $color-offset) !important;
             color: fgColor(darken($green-base, $i * $color-offset));
         }
@@ -221,13 +221,13 @@
 //-------------
 @for $i from 1 to $color-shades {
     @if ($i==5) {
-        .indigo,
-        .hover\:indigo:hover {
+        .bg-indigo,
+        .hover\:bg-indigo:hover {
             background-color: darken($indigo-base, $i * $color-offset) !important;
             color: fgColor(darken($indigo-base, $i * $color-offset));
         }
-        .indigo-#{$i*100},
-        .hover\:indigo-#{$i*100}:hover {
+        .bg-indigo-#{$i*100},
+        .hover\:bg-indigo-#{$i*100}:hover {
             background-color: darken($indigo-base, $i * $color-offset) !important;
             color: fgColor(darken($indigo-base, $i * $color-offset));
         }
@@ -235,8 +235,8 @@
 
     @else {
 
-        .indigo-#{$i*100},
-        .hover\:indigo-#{$i*100}:hover {
+        .bg-indigo-#{$i*100},
+        .hover\:bg-indigo-#{$i*100}:hover {
             background-color: darken($indigo-base, $i * $color-offset) !important;
             color: fgColor(darken($indigo-base, $i * $color-offset));
         }
@@ -251,13 +251,13 @@
 //-------------
 @for $i from 1 to $color-shades {
     @if ($i==5) {
-        .khaki,
-        .hover\:khaki:hover {
+        .bg-khaki,
+        .hover\:bg-khaki:hover {
             background-color: darken($khaki-base, $i * $color-offset) !important;
             color: fgColor(darken($khaki-base, $i * $color-offset));
         }
-        .khaki-#{$i*100},
-        .hover\:khaki-#{$i*100}:hover {
+        .bg-khaki-#{$i*100},
+        .hover\:bg-khaki-#{$i*100}:hover {
             background-color: darken($khaki-base, $i * $color-offset) !important;
             color: fgColor(darken($khaki-base, $i * $color-offset));
         }
@@ -265,8 +265,8 @@
 
     @else {
 
-        .khaki-#{$i*100},
-        .hover\:khaki-#{$i*100}:hover {
+        .bg-khaki-#{$i*100},
+        .hover\:bg-khaki-#{$i*100}:hover {
             background-color: darken($khaki-base, $i * $color-offset) !important;
             color: fgColor(darken($khaki-base, $i * $color-offset));
         }
@@ -281,13 +281,13 @@
 //-------------
 @for $i from 1 to $color-shades {
     @if ($i==5) {
-        .lime,
-        .hover\:lime:hover {
+        .bg-lime,
+        .hover\:bg-lime:hover {
             background-color: darken($lime-base, $i * $color-offset) !important;
             color: fgColor(darken($lime-base, $i * $color-offset));
         }
-        .lime-#{$i*100},
-        .hover\:lime-#{$i*100}:hover {
+        .bg-lime-#{$i*100},
+        .hover\:bg-lime-#{$i*100}:hover {
             background-color: darken($lime-base, $i * $color-offset) !important;
             color: fgColor(darken($lime-base, $i * $color-offset));
         }
@@ -295,8 +295,8 @@
 
     @else {
 
-        .lime-#{$i*100},
-        .hover\:lime-#{$i*100}:hover {
+        .bg-lime-#{$i*100},
+        .hover\:bg-lime-#{$i*100}:hover {
             background-color: darken($lime-base, $i * $color-offset) !important;
             color: fgColor(darken($lime-base, $i * $color-offset));
         }
@@ -309,13 +309,13 @@
 //-------------
 @for $i from 1 to $color-shades {
     @if ($i==5) {
-        .orange,
-        .hover\:orange:hover {
+        .bg-orange,
+        .hover\:bg-orange:hover {
             background-color: darken($orange-base, $i * $color-offset) !important;
             color: fgColor(darken($orange-base, $i * $color-offset));
         }
-        .orange-#{$i*100},
-        .hover\:orange-#{$i*100}:hover {
+        .bg-orange-#{$i*100},
+        .hover\:bg-orange-#{$i*100}:hover {
             background-color: darken($orange-base, $i * $color-offset) !important;
             color: fgColor(darken($orange-base, $i * $color-offset));
         }
@@ -323,8 +323,8 @@
 
     @else {
 
-        .orange-#{$i*100},
-        .hover\:orange-#{$i*100}:hover {
+        .bg-orange-#{$i*100},
+        .hover\:bg-orange-#{$i*100}:hover {
             background-color: darken($orange-base, $i * $color-offset) !important;
             color: fgColor(darken($orange-base, $i * $color-offset));
         }
@@ -339,13 +339,13 @@
 //-------------
 @for $i from 1 to $color-shades {
     @if ($i==5) {
-        .pink,
-        .hover\:pink:hover {
+        .bg-pink,
+        .hover\:bg-pink:hover {
             background-color: darken($pink-base, $i * $color-offset) !important;
             color: fgColor(darken($pink-base, $i * $color-offset));
         }
-        .pink-#{$i*100},
-        .hover\:pink-#{$i*100}:hover {
+        .bg-pink-#{$i*100},
+        .hover\:bg-pink-#{$i*100}:hover {
             background-color: darken($pink-base, $i * $color-offset) !important;
             color: fgColor(darken($pink-base, $i * $color-offset));
         }
@@ -353,8 +353,8 @@
 
     @else {
 
-        .pink-#{$i*100},
-        .hover\:pink-#{$i*100}:hover {
+        .bg-pink-#{$i*100},
+        .hover\:bg-pink-#{$i*100}:hover {
             background-color: darken($pink-base, $i * $color-offset) !important;
             color: fgColor(darken($pink-base, $i * $color-offset));
         }
@@ -368,13 +368,13 @@
 //-------------
 @for $i from 1 to $color-shades {
     @if ($i==5) {
-        .purple,
-        .hover\:purple:hover {
+        .bg-purple,
+        .hover\:bg-purple:hover {
             background-color: darken($purple-base, $i * $color-offset) !important;
             color: fgColor(darken($purple-base, $i * $color-offset));
         }
-        .purple-#{$i*100},
-        .hover\:purple-#{$i*100}:hover {
+        .bg-purple-#{$i*100},
+        .hover\:bg-purple-#{$i*100}:hover {
             background-color: darken($purple-base, $i * $color-offset) !important;
             color: fgColor(darken($purple-base, $i * $color-offset));
         }
@@ -382,8 +382,8 @@
 
     @else {
 
-        .purple-#{$i*100},
-        .hover\:purple-#{$i*100}:hover {
+        .bg-purple-#{$i*100},
+        .hover\:bg-purple-#{$i*100}:hover {
             background-color: darken($purple-base, $i * $color-offset) !important;
             color: fgColor(darken($purple-base, $i * $color-offset));
         }
@@ -398,13 +398,13 @@
 //-------------
 @for $i from 1 to $color-shades {
     @if ($i==5) {
-        .red,
-        .hover\:red:hover {
+        .bg-red,
+        .hover\:bg-red:hover {
             background-color: darken($red-base, $i * $color-offset) !important;
             color: fgColor(darken($red-base, $i * $color-offset));
         }
-        .red-#{$i*100},
-        .hover\:red-#{$i*100}:hover {
+        .bg-red-#{$i*100},
+        .hover\:bg-red-#{$i*100}:hover {
             background-color: darken($red-base, $i * $color-offset) !important;
             color: fgColor(darken($red-base, $i * $color-offset));
         }
@@ -412,8 +412,8 @@
 
     @else {
 
-        .red-#{$i*100},
-        .hover\:red-#{$i*100}:hover {
+        .bg-red-#{$i*100},
+        .hover\:bg-red-#{$i*100}:hover {
             background-color: darken($red-base, $i * $color-offset) !important;
             color: fgColor(darken($red-base, $i * $color-offset));
         }
@@ -428,13 +428,13 @@
 //-------------
 @for $i from 1 to $color-shades {
     @if ($i==5) {
-        .teal,
-        .hover\:teal:hover {
+        .bg-teal,
+        .hover\:bg-teal:hover {
             background-color: darken($teal-base, $i * $color-offset) !important;
             color: fgColor(darken($teal-base, $i * $color-offset));
         }
-        .teal-#{$i*100},
-        .hover\:teal-#{$i*100}:hover {
+        .bg-teal-#{$i*100},
+        .hover\:bg-teal-#{$i*100}:hover {
             background-color: darken($teal-base, $i * $color-offset) !important;
             color: fgColor(darken($teal-base, $i * $color-offset));
         }
@@ -442,8 +442,8 @@
 
     @else {
 
-        .teal-#{$i*100},
-        .hover\:teal-#{$i*100}:hover {
+        .bg-teal-#{$i*100},
+        .hover\:bg-teal-#{$i*100}:hover {
             background-color: darken($teal-base, $i * $color-offset) !important;
             color: fgColor(darken($teal-base, $i * $color-offset));
         }
@@ -457,13 +457,13 @@
 //-------------
 @for $i from 1 to $color-shades {
     @if ($i==5) {
-        .yellow,
-        .hover\:yellow:hover {
+        .bg-yellow,
+        .hover\:bg-yellow:hover {
             background-color: darken($yellow-base, $i * $color-offset) !important;
             color: fgColor(darken($yellow-base, $i * $color-offset));
         }
-        .yellow-#{$i*100},
-        .hover\:yellow-#{$i*100}:hover {
+        .bg-yellow-#{$i*100},
+        .hover\:bg-yellow-#{$i*100}:hover {
             background-color: darken($yellow-base, $i * $color-offset) !important;
             color: fgColor(darken($yellow-base, $i * $color-offset));
         }
@@ -471,8 +471,8 @@
 
     @else {
 
-        .yellow-#{$i*100},
-        .hover\:yellow-#{$i*100}:hover {
+        .bg-yellow-#{$i*100},
+        .hover\:bg-yellow-#{$i*100}:hover {
             background-color: darken($yellow-base, $i * $color-offset) !important;
             color: fgColor(darken($yellow-base, $i * $color-offset));
         }
@@ -486,13 +486,13 @@
 //----------
 @for $i from 1 to $color-shades {
     @if ($i==5) {
-        .grey,
-        .hover\:grey:hover {
+        .bg-grey,
+        .hover\:bg-grey:hover {
             background-color: darken($grey-base, $i * $color-offset-grey) !important;
             color: fgColor(darken($grey-base, $i * $color-offset-grey));
         }
-        .grey-#{$i*100},
-        .hover\:grey-#{$i*100}:hover {
+        .bg-grey-#{$i*100},
+        .hover\:bg-grey-#{$i*100}:hover {
             background-color: darken($grey-base, $i * $color-offset-grey) !important;
             color: fgColor(darken($grey-base, $i * $color-offset-grey));
         }
@@ -500,8 +500,8 @@
 
     @else {
 
-        .grey-#{$i*100},
-        .hover\:grey-#{$i*100}:hover {
+        .bg-grey-#{$i*100},
+        .hover\:bg-grey-#{$i*100}:hover {
             background-color: darken($grey-base, $i * $color-offset-grey) !important;
             color: fgColor(darken($grey-base, $i * $color-offset-grey));
         }
@@ -512,8 +512,8 @@
 //------------
 //   DARK   ||
 //------------
-.dark,
-.hover\:dark:hover {
+.bg-dark,
+.hover\:bg-dark:hover {
     background-color: $dark !important;
     color: fgColor($dark);
 }
@@ -521,8 +521,8 @@
 //------------
 //   BLACK   ||
 //------------
-.black,
-.hover\:black:hover {
+.bg-black,
+.hover\:bg-black:hover {
     background-color: $black !important;
     color: fgColor($black);
 }
@@ -530,10 +530,10 @@
 //-------------
 //   WHITE   ||
 //-------------
-.white,
-.hover\:white:hover,
-.light,
-.hover\:light:hover {
+.bg-white,
+.hover\:bg-white:hover,
+.bg-light,
+.hover\:bg-light:hover {
     background-color: $white !important;
     color: fgColor($white);
 }
@@ -541,8 +541,8 @@
 //-------------
 //   WHITE   ||
 //-------------
-.off-white,
-.hover\:off-white:hover {
+.bg-off-white,
+.hover\:bg-off-white:hover {
     background-color: $off-white !important;
     color: fgColor($off-white);
 }
@@ -550,7 +550,7 @@
 //----------------
 //   TRANSPARENT   ||
 //----------------
-.transparent,
-.hover\:transparent:hover {
+.bg-transparent,
+.hover\:bg-transparent:hover {
     background-color: transparent !important;
 }
