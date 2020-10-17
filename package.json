@@ -1,6 +1,6 @@
 {
   "name": "colorspal",
-  "version": "1.2.0",
+  "version": "1.2.15",
   "description": "Provides a wide variety of colors with 9 shades of each to help you writing frontend code easily.",
   "main": "index.js",
   "repository": {
