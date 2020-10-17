@@ -18,7 +18,7 @@
   <br>
 </p>
 
-# ColorsPal 1.1
+# ColorsPal 1.2
 ## Quick start
 Several quick start options are available:
 
@@ -63,8 +63,8 @@ Then in your `style.scss` file
 
 Alternatively you can use our CDN
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/colorspal@1.2.0/dist/colorspal.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/colorspal@1.2.0/dist/colorspal.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/colorspal@1.2.15/dist/colorspal.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/colorspal@1.2.15/dist/colorspal.min.css">
 ```
 
 **More Details:**<br>
