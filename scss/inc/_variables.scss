@@ -38,7 +38,7 @@ $teal:                  #009688 !default;
 $teal-base:             lighten($teal, 5 * $color-offset) !default;
 $yellow:                #ffeb3b !default;
 $yellow-base:           lighten($yellow, 5 * $color-offset * 0.9) !default;
-$dark:                  #000 !default;
+$dark:                  #383838 !default;
 $grey:                  #818181 !default;
 $grey-base:             lighten($grey, 5 * $color-offset-grey) !default;
 $white:                 #fff !default;
@@ -55,7 +55,7 @@ $warning:               $yellow !default;
 $danger:                $red !default;
 $accent:                #69A1AC !default;
 $light:                 #FAFAFF !default;
-$dark:                  #4e4e4e !default;
+$dark:                  $dark !default;
 //------------------------------------------//
 $theme-colors: (
     "primary":      $primary,

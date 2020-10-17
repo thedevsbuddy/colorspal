@@ -1,253 +1,199 @@
 :root {
+
+    /*Theme Color*/
+    @each $key, $val in $theme-colors {
+        #{$css-var-prefix}#{$key}: $val;
+    }
+
     /* Amber */
     @for $i from 1 to $color-shades {
-        @if ($i==1) {
-            #{$css-var-prefix}amber: $amber;
-            #{$css-var-prefix}amber-#{$i*100}: $amber;
+        @if ($i==5) {
+            #{$css-var-prefix}amber: darken($amber-base, $i * $color-offset);
+            #{$css-var-prefix}amber-#{$i*100}: darken($amber-base, $i * $color-offset);
         }
         @else {
-            #{$css-var-prefix}amber-#{$i*100}: darken($amber, $i * $color-offset); 
+            #{$css-var-prefix}amber-#{$i*100}: darken($amber-base, $i * $color-offset);
         }
-    }
-    /* Amber Lighten */
-    @for $i from 1 to $color-shades {
-        #{$css-var-prefix}amber-light-#{$i*100}: lighten($amber, $i * $color-offset);
     }
 
     /* aqua */
     @for $i from 1 to $color-shades {
-        @if ($i==1) {
-            #{$css-var-prefix}aqua: $aqua;
-            #{$css-var-prefix}aqua-#{$i*100}: $aqua;
+        @if ($i==5) {
+            #{$css-var-prefix}aqua: darken($aqua-base, $i * $color-offset);
+            #{$css-var-prefix}aqua-#{$i*100}: darken($aqua-base, $i * $color-offset);
         }
         @else {
-            #{$css-var-prefix}aqua-#{$i*100}: darken($aqua, $i * $color-offset); 
+            #{$css-var-prefix}aqua-#{$i*100}: darken($aqua-base, $i * $color-offset);
         }
     }
-    /* aqua Lighten */
-    @for $i from 1 to $color-shades {
-        #{$css-var-prefix}aqua-light-#{$i*100}: lighten($aqua, $i * $color-offset);
-    }
-    
+
     /* blue */
     @for $i from 1 to $color-shades {
-        @if ($i==1) {
-            #{$css-var-prefix}blue: $blue;
-            #{$css-var-prefix}blue-#{$i*100}: $blue;
+        @if ($i==5) {
+            #{$css-var-prefix}blue: darken($blue-base, $i * $color-offset);
+            #{$css-var-prefix}blue-#{$i*100}: darken($blue-base, $i * $color-offset);
         }
         @else {
-            #{$css-var-prefix}blue-#{$i*100}: darken($blue, $i * $color-offset); 
+            #{$css-var-prefix}blue-#{$i*100}: darken($blue-base, $i * $color-offset);
         }
     }
-    /* blue Lighten */
-    @for $i from 1 to $color-shades {
-        #{$css-var-prefix}blue-light-#{$i*100}: lighten($blue, $i * $color-offset);
-    }
-    
+
     /* brown */
     @for $i from 1 to $color-shades {
-        @if ($i==1) {
-            #{$css-var-prefix}brown: $brown;
-            #{$css-var-prefix}brown-#{$i*100}: $brown;
+        @if ($i==5) {
+            #{$css-var-prefix}brown: darken($brown-base, $i * $color-offset * .9);
+            #{$css-var-prefix}brown-#{$i*100}: darken($brown-base, $i * $color-offset * .9);
         }
         @else {
-            #{$css-var-prefix}brown-#{$i*100}: darken($brown, $i * $color-offset); 
+            #{$css-var-prefix}brown-#{$i*100}: darken($brown-base, $i * $color-offset * .9);
         }
-    }
-    /* brown Lighten */
-    @for $i from 1 to $color-shades {
-        #{$css-var-prefix}brown-light-#{$i*100}: lighten($brown, $i * $color-offset);
     }
 
     /* cyan */
     @for $i from 1 to $color-shades {
-        @if ($i==1) {
-            #{$css-var-prefix}cyan: $cyan;
-            #{$css-var-prefix}cyan-#{$i*100}: $cyan;
+        @if ($i==5) {
+            #{$css-var-prefix}cyan: darken($cyan-base, $i * $color-offset);
+            #{$css-var-prefix}cyan-#{$i*100}: darken($cyan-base, $i * $color-offset);
         }
         @else {
-            #{$css-var-prefix}cyan-#{$i*100}: darken($cyan, $i * $color-offset); 
+            #{$css-var-prefix}cyan-#{$i*100}: darken($cyan-base, $i * $color-offset);
         }
     }
-    /* cyan Lighten */
-    @for $i from 1 to $color-shades {
-        #{$css-var-prefix}cyan-light-#{$i*100}: lighten($cyan, $i * $color-offset);
-    }
-    
+
     /* blue-grey */
     @for $i from 1 to $color-shades {
-        @if ($i==1) {
-            #{$css-var-prefix}blue-grey: $blue-grey;
-            #{$css-var-prefix}blue-grey-#{$i*100}: $blue-grey;
+        @if ($i==5) {
+            #{$css-var-prefix}blue-grey: darken($blue-grey-base, $i * $color-offset);
+            #{$css-var-prefix}blue-grey-#{$i*100}: darken($blue-grey-base, $i * $color-offset);
         }
         @else {
-            #{$css-var-prefix}blue-grey-#{$i*100}: darken($blue-grey, $i * $color-offset); 
+            #{$css-var-prefix}blue-grey-#{$i*100}: darken($blue-grey-base, $i * $color-offset);
         }
     }
-    /* blue-grey Lighten */
-    @for $i from 1 to $color-shades {
-        #{$css-var-prefix}blue-grey-light-#{$i*100}: lighten($blue-grey, $i * $color-offset);
-    }
+
     
     /* green */
     @for $i from 1 to $color-shades {
-        @if ($i==1) {
-            #{$css-var-prefix}green: $green;
-            #{$css-var-prefix}green-#{$i*100}: $green;
+        @if ($i==5) {
+            #{$css-var-prefix}green: darken($green-base, $i * $color-offset);
+            #{$css-var-prefix}green-#{$i*100}: darken($green-base, $i * $color-offset);
         }
         @else {
-            #{$css-var-prefix}green-#{$i*100}: darken($green, $i * $color-offset); 
+            #{$css-var-prefix}green-#{$i*100}: darken($green-base, $i * $color-offset);
         }
-    }
-    /* green Lighten */
-    @for $i from 1 to $color-shades {
-        #{$css-var-prefix}green-light-#{$i*100}: lighten($green, $i * $color-offset);
     }
     
     /* indigo */
     @for $i from 1 to $color-shades {
-        @if ($i==1) {
-            #{$css-var-prefix}indigo: $indigo;
-            #{$css-var-prefix}indigo-#{$i*100}: $indigo;
+        @if ($i==5) {
+            #{$css-var-prefix}indigo: darken($indigo-base, $i * $color-offset);
+            #{$css-var-prefix}indigo-#{$i*100}: darken($indigo-base, $i * $color-offset);
         }
         @else {
-            #{$css-var-prefix}indigo-#{$i*100}: darken($indigo, $i * $color-offset); 
+            #{$css-var-prefix}indigo-#{$i*100}: darken($indigo-base, $i * $color-offset);
         }
     }
-    /* indigo Lighten */
-    @for $i from 1 to $color-shades {
-        #{$css-var-prefix}indigo-light-#{$i*100}: lighten($indigo, $i * $color-offset);
-    }
-    
+
     /* khaki */
     @for $i from 1 to $color-shades {
-        @if ($i==1) {
-            #{$css-var-prefix}khaki: $khaki;
-            #{$css-var-prefix}khaki-#{$i*100}: $khaki;
+        @if ($i==5) {
+            #{$css-var-prefix}khaki: darken($khaki-base, $i * $color-offset);
+            #{$css-var-prefix}khaki-#{$i*100}: darken($khaki-base, $i * $color-offset);
         }
         @else {
-            #{$css-var-prefix}khaki-#{$i*100}: darken($khaki, $i * $color-offset); 
+            #{$css-var-prefix}khaki-#{$i*100}: darken($khaki-base, $i * $color-offset);
         }
     }
-    /* khaki Lighten */
-    @for $i from 1 to $color-shades {
-        #{$css-var-prefix}khaki-light-#{$i*100}: lighten($khaki, $i * $color-offset);
-    }
-    
+
     /* lime */
     @for $i from 1 to $color-shades {
-        @if ($i==1) {
-            #{$css-var-prefix}lime: $lime;
-            #{$css-var-prefix}lime-#{$i*100}: $lime;
+        @if ($i==5) {
+            #{$css-var-prefix}lime: darken($lime-base, $i * $color-offset);
+            #{$css-var-prefix}lime-#{$i*100}: darken($lime-base, $i * $color-offset);
         }
         @else {
-            #{$css-var-prefix}lime-#{$i*100}: darken($lime, $i * $color-offset); 
+            #{$css-var-prefix}lime-#{$i*100}: darken($lime-base, $i * $color-offset);
         }
     }
-    /* lime Lighten */
-    @for $i from 1 to $color-shades {
-        #{$css-var-prefix}lime-light-#{$i*100}: lighten($lime, $i * $color-offset);
-    }
+
     
     /* orange */
     @for $i from 1 to $color-shades {
-        @if ($i==1) {
-            #{$css-var-prefix}orange: $orange;
-            #{$css-var-prefix}orange-#{$i*100}: $orange;
+        @if ($i==5) {
+            #{$css-var-prefix}orange: darken($orange-base, $i * $color-offset);
+            #{$css-var-prefix}orange-#{$i*100}: darken($orange-base, $i * $color-offset);
         }
         @else {
-            #{$css-var-prefix}orange-#{$i*100}: darken($orange, $i * $color-offset); 
+            #{$css-var-prefix}orange-#{$i*100}: darken($orange-base, $i * $color-offset);
         }
-    }
-    /* orange Lighten */
-    @for $i from 1 to $color-shades {
-        #{$css-var-prefix}orange-light-#{$i*100}: lighten($orange, $i * $color-offset);
     }
     
     /* pink */
     @for $i from 1 to $color-shades {
-        @if ($i==1) {
-            #{$css-var-prefix}pink: $pink;
-            #{$css-var-prefix}pink-#{$i*100}: $pink;
+        @if ($i==5) {
+            #{$css-var-prefix}pink: darken($pink-base, $i * $color-offset);
+            #{$css-var-prefix}pink-#{$i*100}: darken($pink-base, $i * $color-offset);
         }
         @else {
-            #{$css-var-prefix}pink-#{$i*100}: darken($pink, $i * $color-offset); 
+            #{$css-var-prefix}pink-#{$i*100}: darken($pink-base, $i * $color-offset);
         }
     }
-    /* pink Lighten */
-    @for $i from 1 to $color-shades {
-        #{$css-var-prefix}pink-light-#{$i*100}: lighten($pink, $i * $color-offset);
-    }
+
     
     /* purple */
     @for $i from 1 to $color-shades {
-        @if ($i==1) {
-            #{$css-var-prefix}purple: $purple;
-            #{$css-var-prefix}purple-#{$i*100}: $purple;
+        @if ($i==5) {
+            #{$css-var-prefix}purple: darken($purple-base, $i * $color-offset);
+            #{$css-var-prefix}purple-#{$i*100}: darken($purple-base, $i * $color-offset);
         }
         @else {
-            #{$css-var-prefix}purple-#{$i*100}: darken($purple, $i * $color-offset); 
+            #{$css-var-prefix}purple-#{$i*100}: darken($purple-base, $i * $color-offset);
         }
     }
-    /* purple Lighten */
-    @for $i from 1 to $color-shades {
-        #{$css-var-prefix}purple-light-#{$i*100}: lighten($purple, $i * $color-offset);
-    }
+
     
     /* red */
     @for $i from 1 to $color-shades {
-        @if ($i==1) {
-            #{$css-var-prefix}red: $red;
-            #{$css-var-prefix}red-#{$i*100}: $red;
+        @if ($i==5) {
+            #{$css-var-prefix}red: darken($red-base, $i * $color-offset);
+            #{$css-var-prefix}red-#{$i*100}: darken($red-base, $i * $color-offset);
         }
         @else {
-            #{$css-var-prefix}red-#{$i*100}: darken($red, $i * $color-offset); 
+            #{$css-var-prefix}red-#{$i*100}: darken($red-base, $i * $color-offset);
         }
-    }
-    /* red Lighten */
-    @for $i from 1 to $color-shades {
-        #{$css-var-prefix}red-light-#{$i*100}: lighten($red, $i * $color-offset);
     }
     
     /* teal */
     @for $i from 1 to $color-shades {
-        @if ($i==1) {
-            #{$css-var-prefix}teal: $teal;
-            #{$css-var-prefix}teal-#{$i*100}: $teal;
+        @if ($i==5) {
+            #{$css-var-prefix}teal: darken($teal-base, $i * $color-offset);
+            #{$css-var-prefix}teal-#{$i*100}: darken($teal-base, $i * $color-offset);
         }
         @else {
-            #{$css-var-prefix}teal-#{$i*100}: darken($teal, $i * $color-offset); 
+            #{$css-var-prefix}teal-#{$i*100}: darken($teal-base, $i * $color-offset);
         }
-    }
-    /* teal Lighten */
-    @for $i from 1 to $color-shades {
-        #{$css-var-prefix}teal-light-#{$i*100}: lighten($teal, $i * $color-offset);
     }
     
     /* yellow */
     @for $i from 1 to $color-shades {
-        @if ($i==1) {
-            #{$css-var-prefix}yellow: $yellow;
-            #{$css-var-prefix}yellow-#{$i*100}: $yellow;
+        @if ($i==5) {
+            #{$css-var-prefix}yellow: darken($yellow-base, $i * $color-offset);
+            #{$css-var-prefix}yellow-#{$i*100}: darken($yellow-base, $i * $color-offset);
         }
         @else {
-            #{$css-var-prefix}yellow-#{$i*100}: darken($yellow, $i * $color-offset); 
+            #{$css-var-prefix}yellow-#{$i*100}: darken($yellow-base, $i * $color-offset);
         }
-    }
-    /* yellow Lighten */
-    @for $i from 1 to $color-shades {
-        #{$css-var-prefix}yellow-light-#{$i*100}: lighten($yellow, $i * $color-offset);
     }
 
         
     /* grey */
     @for $i from 1 to $color-shades {
-        @if ($i==1) {
-            #{$css-var-prefix}grey: darken($white, $amount: 40%);
-            #{$css-var-prefix}grey-#{$i*100}: darken($white, $amount: 40%);
+        @if ($i==5) {
+            #{$css-var-prefix}grey: darken($grey-base, $i * $color-offset);
+            #{$css-var-prefix}grey-#{$i*100}: darken($grey-base, $i * $color-offset);
         }
         @else {
-            #{$css-var-prefix}grey-#{$i*100}: darken(darken($white, $amount: 40%), $i * $color-offset); 
+            #{$css-var-prefix}grey-#{$i*100}: darken($grey-base, $i * $color-offset);
         }
     }
 
@@ -255,4 +201,5 @@
     #{$css-var-prefix}black: $black;
     #{$css-var-prefix}white: $white;
     #{$css-var-prefix}off-white: $off-white;
+    #{$css-var-prefix}transparent: transparent;
 }

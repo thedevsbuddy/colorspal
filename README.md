@@ -1,5 +1,3 @@
-
-
 <p align="center">
   <a href="https://devsbuddy.com/libs/colorspal">
     <img src="https://www.devsbuddy.com/assets/img/logo.png" alt="Devsbuddy logo" width="150" height="150">
@@ -15,18 +13,13 @@
   Provides a wide variety of colors with 9 shades of each to help you writing frontend code easily.
   <br>
   <br>
-  <a href="https://devsbuddy.com/libs/colorspal"><strong>Explore ColorsPal docs »</strong></a>
+  <strong><a href="https://devsbuddy.com/libs/colorspal">Explore ColorsPal docs »</a></strong>
 <br>
   <br>
 </p>
 
-
 # ColorsPal 1.1
-
-
 ## Quick start
-
-
 Several quick start options are available:
 
 - [Download the latest release](https://github.com/devs-buddy/colorspal/archive/v1.1.zip)
@@ -56,27 +49,29 @@ colorspal/
 
 We provide compiled CSS (`colorspal.css`), as well as compiled and minified CSS (`colorspal.min.css`).
 
-
-
 ## Documentation
 
 **Installation**
-```
+```bash
 npm i colorspal
-```
-You can also use it via CDN
-```
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/colorspal@1.1.30/dist/colorspal.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/colorspal@1.1.30/dist/colorspal.min.css">
 ```
 
 Then in your `style.scss` file
-```
+```scss
 @import "../node_modules/colorspal/scss/colorspal";
 ```
+
+Alternatively you can use our CDN
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/colorspal@1.2.0/dist/colorspal.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/colorspal@1.2.0/dist/colorspal.min.css">
+```
+
 **More Details:**<br>
+
 Please follow our official documentation for more depth information and example codes. <br>
-<a href="https://devsbuddy.com/libs/colorspal"><strong>ColorsPal docs »</strong></a>
+<strong><a href="https://devsbuddy.com/libs/colorspal">ColorsPal docs »</a></strong>
+
 ## Copyright and license
 
 Code and documentation copyright 2020 the [DevsBuddy](https://devsbuddy.com). Code released under the MIT License. Docs released under [Creative Commons](https://creativecommons.org/licenses/by/3.0/).
