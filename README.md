@@ -64,6 +64,11 @@ We provide compiled CSS (`colorspal.css`), as well as compiled and minified CSS 
 ```
 npm i colorspal
 ```
+You can also use it via CDN
+```
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/colorspal@1.1.30/dist/colorspal.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/colorspal@1.1.30/dist/colorspal.min.css">
+```
 
 Then in your `style.scss` file
 ```
