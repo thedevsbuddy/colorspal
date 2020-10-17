@@ -15,7 +15,7 @@
   Provides a wide variety of colors with 9 shades of each to help you writing frontend code easily.
   <br>
   <br>
-  <a href="https://devsbuddy.com/libs/colorspal/docs/"><strong>Explore ColorsPal docs »</strong></a>
+  <a href="https://devsbuddy.com/libs/colorspal"><strong>Explore ColorsPal docs »</strong></a>
 <br>
   <br>
 </p>
@@ -72,7 +72,7 @@ Then in your `style.scss` file
 ```
 **More Details:**<br>
 Please follow our official documentation for more depth information and example codes. <br>
-<a href="https://devsbuddy.com/libs/colorspal/docs/"><strong>ColorsPal docs »</strong></a>
+<a href="https://devsbuddy.com/libs/colorspal"><strong>ColorsPal docs »</strong></a>
 ## Copyright and license
 
 Code and documentation copyright 2020 the [DevsBuddy](https://devsbuddy.com). Code released under the MIT License. Docs released under [Creative Commons](https://creativecommons.org/licenses/by/3.0/).
