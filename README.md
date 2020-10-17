@@ -39,11 +39,10 @@ Within the download you'll find the following directories and files, logically g
 ```text
 colorspal/
 ├── dist/
-│   ├── css/
-│   │   ├── colorspal.css
-│   │   ├── colorspal.css.map
-│   │   ├── colorspal.min.css
-│   │   ├── colorspal.min.css.map
+│   ├── colorspal.css
+│   ├── colorspal.css.map
+│   ├── colorspal.min.css
+│   ├── colorspal.min.css.map
 └── scss/
     │   ├── components/
     │   │   ├── _background-colors.scss
