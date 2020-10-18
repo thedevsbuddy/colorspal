@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://devsbuddy.com/libs/colorspal">
-    <img src="https://www.devsbuddy.com/assets/img/logo.png" alt="Devsbuddy logo" width="150" height="150">
+    <img src="https://www.devsbuddy.com/assets/libs/logos/ColorsPal.png" alt="Devsbuddy logo" width="150" height="150">
   </a>
 </p>
 
