@@ -22,7 +22,7 @@
 ## Quick start
 Several quick start options are available:
 
-- [Download the latest release](https://github.com/devs-buddy/colorspal/archive/v1.1.zip)
+- [Download the latest release](https://github.com/devs-buddy/colorspal/archive/v1.2.20.zip)
 - Install with [npm](https://www.npmjs.com/): `npm i colorspal`
 
 ## What's included
@@ -63,8 +63,8 @@ Then in your `style.scss` file
 
 Alternatively you can use our CDN
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/colorspal@1.2.15/dist/colorspal.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/colorspal@1.2.15/dist/colorspal.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/colorspal@1.2.20/dist/colorspal.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/colorspal@1.2.20/dist/colorspal.min.css">
 ```
 
 **More Details:**<br>
